@@ -49,13 +49,27 @@
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Hub</a></li>
-          <li><a class="nav-link scrollto" href="#about">Capacitação</a></li>
-          <li><a class="nav-link scrollto" href="#services">Intermediação</a></li>
+          <li class="dropdown"><a href="#"><span>Capacitação</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Podcast</a></li>
+              <li><a href="#">Workshop</a></li>
+              <li><a href="#">Impressão</a></li>
+              <li><a href="#">Hub</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="#"><span>Intermediação</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Connect</a></li>
+              <li><a href="#">Staff</a></li>
+              <li><a href="#">Video Feed Back</a></li>
+            </ul>
+          </li>
           <li><a class="nav-link scrollto" href="#portfolio">Construção Autoridade</a></li>
    
           <li class="dropdown"><a href="#"><span>Associação</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-               
+              <li><a href="#">Registre-se</a></li>
+              <li><a href="#">Login</a></li>
               <li><a href="#">Galaxy Pay</a></li>
               <li><a href="#">WhatsApp</a></li>
             </ul>
@@ -67,6 +81,7 @@
             Agenda
           </a>
           </li>
+      
           <li class="dropdown"><a href="#"><span>Associados</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
                
@@ -184,6 +199,44 @@
         </div>
 
       </div>
+
+      
+      <div class="index6" >
+         
+        <!-- Botão flutuante -->
+        <a class="contrate-a"><button type="button" class="button-wpp" 
+        style="position: fixed; bottom: 20px; left: 0;margin:0 1rem; z-index: 99; display: flex; align-items: center; justify-content: center;">Cadaste-se Agora!</button></a>
+      
+        <!-- Modal -->
+        <div class="modal" id="formModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+            
+              <!-- Cabeçalho do Modal -->
+              <div class="modal-header">
+                <h4 class="modal-title">Enviar mensagem para o WhatsApp</h4>
+                <button type="button" class="btn-close close" data-dismiss="modal"></button>
+              </div>
+              
+              <!-- Corpo do Modal -->
+              <div class="modal-body">
+                <form id="whatsapp-form">
+                  <div class="form-group">
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Mensagem:</label>
+                    <input type="text" class="form-control" id="message" placeholder="Sua mensagem">
+                  </div>
+                  <button type="submit" class="btn btn-primary button-main2" style="margin-top: .5rem;">Enviar para o WhatsApp</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+  </div>
+      
 
     </section><!-- End Values Section -->
 

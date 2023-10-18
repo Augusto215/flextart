@@ -18,6 +18,18 @@ body {
   color: #444444;
 }
 
+.button-wpp
+{
+
+
+  background: #4154f1;
+  color:#fff;
+  border-radius: 4px;
+  padding:.5rem 1rem;
+  border:none;
+  outline:none;
+}
+
 a {
   color: #4154f1;
   text-decoration: none;
