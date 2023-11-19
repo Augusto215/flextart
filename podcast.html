@@ -1,0 +1,1200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Builderz - Construction Company Website Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Construction Company Website Template" name="keywords">
+        <meta content="Construction Company Website Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/flaticon/font/flaticon.css" rel="stylesheet"> 
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+             <!-- Top Bar Start -->
+            <div class="top-bar">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img style="height: 5rem;" src="img\PERITAHUB-LOGOMARCA-PRETA-removebg-preview.png">
+                                    <!-- <img src="img/logo.jpg" alt="Logo"> -->
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-8 col-md-7 d-none d-lg-block">
+                            <div class="row">
+                                <div class="col-4 d-none">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-calendar"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Opening Hour</h3>
+                                            <p>Mon - Fri, 8:00 - 9:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-call"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Telefone</h3>
+                                            <p>+55 84 9968-5118</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="top-bar-item">
+                                        <div class="top-bar-icon">
+                                            <i class="flaticon-send-mail"></i>
+                                        </div>
+                                        <div class="top-bar-text">
+                                            <h3>Email</h3>
+                                            <p>relacionamento@peritahub.com</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Top Bar End -->
+
+            <!-- Nav Bar Start -->
+            <div class="nav-bar">
+                <div class="container-fluid">
+                    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+                        <a href="#" class="navbar-brand">MENU</a>
+                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                            <div class="navbar-nav mr-auto">
+                                <a href="index.html" class="nav-item nav-link">Hub</a>
+                                <div class="nav-item dropdown">
+                                    <a href="#" class="nav-link dropdown-toggle active" data-toggle="dropdown">Capacitação</a>
+                                    <div class="dropdown-menu">
+                                        <a href="podcast.html" class="dropdown-item">Podcasts</a>
+                                        <a href="workshop.html" class="dropdown-item">Workshop</a>
+                                        <a href="imersao.html" class="dropdown-item">Imersão</a>
+                                    </div>
+                                </div>
+                                <a href="autoridade.html" class="nav-item nav-link">Construção de Autoridade</a>
+                            
+
+                                <a href="intermediacao.html" class="nav-item nav-link">Intermediação</a>
+
+                            </div>
+                            <div class="ml-auto">
+                                <div class="nav-item dropdown">
+                                    <a style="color:#fff;" href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Associação</a>
+                                    <div class="dropdown-menu">
+                                        <a href="https://app.galaxpay.com.br/abrir-conta" class="dropdown-item">Registre-se</a>
+                                        <a href="https://futurizeagora.com.br/" class="dropdown-item">Login</a>
+                                    </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Nav Bar End -->
+
+            <div class="index6" >
+         
+                <!-- Botão flutuante -->
+                <a href="https://app.galaxpay.com.br/abrir-conta"><button type="button" class="button-wpp fw-bold p-2" 
+                style="background:#0054ff; color:#000000; font-size:1.3rem; border:none; outline:none;  position: fixed; bottom: 20px; left: 0;margin:0 1rem; z-index: 99; display: flex; align-items: center; justify-content: center;">Associe-se</button></a>
+              
+                <!-- Modal -->
+                <div class="modal" id="formModal">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                    
+                      <!-- Cabeçalho do Modal -->
+                      <div class="modal-header">
+                        <h4 class="modal-title">Enviar mensagem para o WhatsApp</h4>
+                        <button type="button" class="btn-close close" data-dismiss="modal"></button>
+                      </div>
+                      
+                      <!-- Corpo do Modal -->
+                      <div class="modal-body">
+                        <form id="whatsapp-form">
+                          <div class="form-group">
+                            <label for="name">Nome:</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu nome">
+                          </div>
+                          <div class="form-group">
+                            <label for="message">Mensagem:</label>
+                            <input type="text" class="form-control" id="message" placeholder="Sua mensagem">
+                          </div>
+                          <button type="submit" class="btn btn-primary button-main2" style="margin-top: .5rem;">Enviar para o WhatsApp</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+            
+            <!-- Page Header Start -->
+            <div class="page-header" style="height:25rem !important; background:url('img/Cópia de Cópia de AFC_4461.png') !important;
+            background-position-y: 25% !important; background-size: cover !important;
+            background-repeat: no-repeat;">>
+                <div class="container">
+                                        <div class="row" >
+                        <div class="col-12">
+                            <h2 >Podcasts</h2>
+                        </div>
+                        <div class="col-12">
+                            <a  href="">Home</a>
+                            <a  href="">Capacitação</a>
+                            <a href="">Podcasts</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Page Header End -->
+
+            <div id="content">
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/HREMLSrg-NE?si=RQi4I-NO1bcpERCk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 1</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/76wzk2IvdyI?si=xU_aSoIP6lBkeAtj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 2</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/-jf6iOnWsvY?si=3nQfy4I1szm_XiyS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 3</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/afQbsLAUJhw?si=zFB3dbSEdPd-yGcj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 4</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/ypA964GJ-ok?si=lEFXfMRoQjBihyvu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 5</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/XxlWk5wXsrA?si=Rv9Vo2b7xTGQuz3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 6</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/-uX9ED-9950?si=XB1fqUWs1rYEqulC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 7</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/9K4-OMokhJU?si=GQw2e7JMGhWdGxUC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 8</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/16FmmOs_hAA?si=5TEDcxEGh55153Js" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 9</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/puGTCdhPn_w?si=oinljCGfUSmnat1p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 10</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/f4Py2cdEZAc?si=ht5GiSUxW2EHC6V2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 11</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/9KVQh46eHmo?si=G1UIVXqlwEwbZge_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 12</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/4nz4wmS9HVs?si=E_jeurPNI7bqsHPX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 13</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/ccgCHD_JTjA?si=H-cZZwd7437ZOcrL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 14</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/wNfXfQ2ET5Y?si=pr-S_uHwzfxXpjPc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 15</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/BRo6iqMsgt0?si=HknIB4CUo25Q8uUC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 16</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/y6ZYhle6fJM?si=-aYIS6dMsuVJy_-8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 17</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/Or6XHbOghXs?si=EFbY3_vSXDan0MDi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 18</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+            <!-- About Start -->
+            <div class="section">
+                <div class="about wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="container">
+                        <div class="row align-items-center">
+                            <div class="col-lg-5 col-md-6">
+                                <div class="about-img" style="position: relative;">
+                                    <iframe class="iframe" src="https://www.youtube.com/embed/Ks1NUSihIbc?si=lyfatQmvZgm85Qg-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                            <div class="col-lg-7 col-md-6">
+                                <div class="section-header text-left">
+                                    <h3>Podcast 19</h3>
+                            </div>
+                            <div class="about-text">
+                                <p>
+                                    No PERITAHUB, acreditamos que a
+                                    capacitação técnica e empresarial é um dos
+                                    pilares essenciais para o sucesso dos
+                                    nossos associados.
+                                    
+                                    Buscamos proporcionar um ambiente de
+                                    aprendizado contínuo e de troca de
+                                    experiências, com o objetivo de impulsionar
+                                    o crescimento e a excelência no setor da
+                                    construção civil.
+                                </p>
+                                <a style="color:#fff;" class="btn" href="">Saiba mais</a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+        
+
+            
+        
+    </div>
+
+        <div class="pagination d-flex justify-content-center align-items-center">
+            <button onclick="changePage(-1)">Anterior</button>
+            <span id="pageNumber">1</span>
+            <button onclick="changePage(1)">Próximo</button>
+        </div>
+            
+          
+              <!-- Fact Start -->
+              <div class="fact">
+                <div class="container-fluid">
+                    <div class="row counters">
+                        <div class="col-md-6 fact-left wow slideInLeft">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-worker"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2>+</h2>&nbsp;<h2 data-toggle="counter-up">1200</h2></div>
+                                        <p>Profissionais Formados</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-building"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2>+</h2>&nbsp;<h2 data-toggle="counter-up">20</h2></div>   
+                                            
+                                            <p>Cursos Feitos</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 fact-right wow slideInRight">
+                            <div class="row">
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-address"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2>+</h2>&nbsp;<h2 data-toggle="counter-up">5</h2>&nbsp;<h2>M</h2></div>   
+                                            
+                                        <p>Intermediações Realizadas</p>
+                                    </div>
+                                </div>
+                                <div class="col-6">
+                                    <div class="fact-icon">
+                                        <i class="flaticon-crane"></i>
+                                    </div>
+                                    <div class="fact-text">
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2>+</h2>&nbsp;<h2 data-toggle="counter-up">15</h2></div>   
+                                            
+                                        <p>Podcasts Realizados</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fact End -->
+
+            
+            
+            <!-- FAQs Start -->
+            <div class="faqs">
+                <div class="container">
+                    <div class="section-header text-center">
+                        <p>Perguntas Frequentes</p>
+                        <h2>Você pode querer saber</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div id="accordion-1">
+                                <div class="card wow fadeInLeft" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.2s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTwo">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.3s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseThree">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.4s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFour">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInLeft" data-wow-delay="0.5s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseFive">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseFive" class="collapse" data-parent="#accordion-1">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div id="accordion-2">
+                                <div class="card wow fadeInRight" data-wow-delay="0.1s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSix">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseSix" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.2s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseSeven">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseSeven" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.3s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseEight">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseEight" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.4s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseNine">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseNine" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card wow fadeInRight" data-wow-delay="0.5s">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseTen">
+                                            Lorem ipsum dolor sit amet?
+                                        </a>
+                                    </div>
+                                    <div id="collapseTen" class="collapse" data-parent="#accordion-2">
+                                        <div class="card-body">
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FAQs End -->
+
+
+          <!-- Footer Start -->
+          <div class="footer wow fadeIn" data-wow-delay="0.3s">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer-contact">
+                            <h2>Contato</h2>
+                            <p><i class="fa fa-phone-alt"></i>+55 84 9968-5118</p>
+                            <p><i class="fa fa-envelope"></i>relacionamento@peritahub.com</p>
+                            <div class="footer-social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 d-none col-lg-3">
+                        <div class="footer-link">
+                            <h2>Services Areas</h2>
+                            <a href="">Building Construction</a>
+                            <a href="">House Renovation</a>
+                            <a href="">Architecture Design</a>
+                            <a href="">Interior Design</a>
+                            <a href="">Painting</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="footer-link">
+                            <h2>Links</h2>
+                            <a href="">Capacitação</a>
+                            <a href="">Construção de Autoridade</a>
+                            <a href="">Associação</a>
+                            <a href="">Workshop</a>
+                            <a href="">Intermediação</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="newsletter">
+                            <h2>Newsletter</h2>
+                            <p>
+    Adoraremos ouvir seu feedback!                                </p>
+                            <div class="form">
+                                <input class="form-control" placeholder="Mensagem aqui">
+                                <button class="btn">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container footer-menu">
+                <div class="f-menu">
+                    <a href="">Terms of use</a>
+                    <a href="">Privacy policy</a>
+                    <a href="">Cookies</a>
+                    <a href="">Help</a>
+                    <a href="">FQAs</a>
+                </div>
+            </div>
+            <div class="container copyright">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; <a href="#">PeritaHub</a>, Todos os Direitos Reservados.</p>
+                    </div>
+                    <div class="col-md-6">
+                        <p>Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+            <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script>
+           document.addEventListener('DOMContentLoaded', function() {
+    var modals = document.querySelectorAll('.modal');
+
+    modals.forEach(function(modal) {
+        modal.addEventListener('show.bs.modal', function () {
+            var video = modal.querySelector('.youtubeVideo');
+            var src = video.getAttribute('src');
+            video.setAttribute('src', src + (src.includes('?') ? '&' : '?') + 'autoplay=1');
+        });
+
+        modal.addEventListener('hide.bs.modal', function () {
+            var video = modal.querySelector('.youtubeVideo');
+            var src = video.getAttribute('src');
+            video.setAttribute('src', src.split('?')[0]);
+        });
+    });
+});
+        </script>
+    </body>
+</html>
