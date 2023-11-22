@@ -191,7 +191,7 @@
                           <ul class="subdirector">              
                           </ul>
                           <ul class="departments cf">								
-                            <li><a href="#"><span class="central">Lorem</span></a></li>
+                            <li class="first-li"><a href="#"><span class="central">Lorem</span></a></li>
                             
                             <li class="department dep-a">
                               <a href="#"><span class="title">Lorem</span><span>ipsum dolor sit amet</span></a>
@@ -234,7 +234,7 @@
                                 <li class="section"><a href="#"><span class="title">Lorem</span><span>ipsum dolor sit amet</span></a></li>
                                 <li class="section"><a href="#"><span class="title">Lorem</span><span>ipsum dolor sit amet</span></a></li>
                                 <li class="section"><a href="#"><span class="title">Lorem</span><span>ipsum dolor sit amet</span></a></li>
-                                <li class="section"><a href="#"><span class="title">Lorem</span><span>ipsum dolor sit amet</span></a></li>
+                                <li class="section"><a href="#"><span class="title">Lorem</span><span>Coordenação de Captação de Recursos</span></a></li>
                               </ul>
                             </li>
                           </ul>
@@ -277,6 +277,32 @@ body{
 	background: #dedede;	
 }
 
+.first-li
+{
+    position: relative;
+}
+
+.first-li::after
+{
+    content: '';
+    position: absolute;
+    z-index:4;
+    border-right: 4px solid #000;
+    bottom:-181px !important;
+    left:50%;
+}
+
+.subdirector > li:first-child::after, .departments > li:first-child::after {
+    content: ''; /* necessário para gerar o elemento */
+    position: absolute; /* posicionamento absoluto em relação ao pai */
+    left: 50%; /* centraliza o pseudo-elemento */
+    bottom: -4px; /* ajuste conforme necessário para posicionar abaixo do border-bottom */
+    height: 10px; /* altura da borda vertical */
+    width: 4px; /* largura da borda vertical, igual à borda existente */
+    background-color: black; /* cor da borda */
+    transform: translateX(-50%); /* centraliza horizontalmente */
+}
+
 .content{
 	width: 100%;
 	max-width: 1142px;
@@ -294,6 +320,8 @@ a:focus{
 	}	
 }
 
+
+
 .administration ul, .administration{
 	padding: 0;
 	margin: 0;
@@ -303,7 +331,7 @@ a:focus{
 ul.administration a{
 	display: block;
 	background: #c4dcc3;
-	border: 4px solid #fff;
+	border: 4px solid #000000;
 	text-align: center;
 	overflow: hidden;
 	font-size: .7em;
@@ -354,7 +382,7 @@ ul a span{
 	display: block;
 	width: 0;
 	height: 130px;
-	background: red;
+	background: rgb(255, 255, 255);
 	border-left: 4px solid #000000;
 	left: 45.45%;
 	position: relative;
@@ -490,7 +518,7 @@ ul a span{
 		position: absolute;
 		width: 0;
 		height: 60px;
-		border-left: 4px solid white;
+		border-left: 4px solid rgb(0, 0, 0);
 		z-index: 1;
 		top: -60px;
 		left: 0%;
@@ -573,13 +601,13 @@ ul a span.central{
             
             
           
-              <!-- Fact Start -->
-              <div class="fact">
+               <!-- Fact Start -->
+               <div class="fact">
                 <div class="container-fluid">
                     <div class="row counters">
                         <div class="col-md-6 fact-left wow slideInLeft">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
                                     <div class="fact-icon">
                                         <i class="flaticon-worker"></i>
                                     </div>
@@ -589,7 +617,7 @@ ul a span.central{
                                         <p>Profissionais Formados</p>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
                                     <div class="fact-icon">
                                         <i class="flaticon-building"></i>
                                     </div>
@@ -604,7 +632,7 @@ ul a span.central{
                         </div>
                         <div class="col-md-6 fact-right wow slideInRight">
                             <div class="row">
-                                <div class="col-6">
+                                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
                                     <div class="fact-icon">
                                         <i class="flaticon-address"></i>
                                     </div>
@@ -615,7 +643,7 @@ ul a span.central{
                                         <p>Intermediações Realizadas</p>
                                     </div>
                                 </div>
-                                <div class="col-6">
+                                <div class="col-md-6 col-12 d-flex justify-content-center align-items-center">
                                     <div class="fact-icon">
                                         <i class="flaticon-crane"></i>
                                     </div>
@@ -632,7 +660,6 @@ ul a span.central{
                 </div>
             </div>
             <!-- Fact End -->
-
             
             
             <!-- FAQs Start -->
